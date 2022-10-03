@@ -9,10 +9,11 @@ body {
   font-family: var(--default-font-family);
 }
 
-h2 {
+p {
   font-weight: normal;
 }
 h1,
+h2,
 h3,
 h4,
 h5,
@@ -25,11 +26,13 @@ h1 {
   font-size: 96px;
 }
 h2 {
-  font-weight: bold;
+  font-size: 64px;
 }
 p {
-  text-align: center;
   font-family: var(--default-font-family);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .hero {
@@ -37,15 +40,16 @@ p {
   text-align: center;
   padding: 160px 20px;
 }
-.hero h2 {
+.hero p {
   font-size: 36px;
   margin: 0;
+  font-weight: bold;
 }
 .hero h1 {
   font-weight: 700;
   line-height: 128px;
 }
-.hero p {
+.hero h2 {
   font-family: var(--default-font-family);
   font-weight: normal;
   font-size: 24px;
@@ -64,4 +68,21 @@ p {
   font-size: 18px;
   line-height: 27px;
   border-radius: 4px;
+}
+.btn-branding-outline {
+  font-size: 18px;
+  border-radius: 4px;
+  line-height: 27px;
+  border-radius: 4px;
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+}
+.project-description {
+  padding: 30px 30px;
+}
+@media (max-width: 900px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
