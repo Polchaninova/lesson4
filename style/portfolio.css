@@ -59,10 +59,8 @@ p {
 .btn-branding {
   padding: 18px 30px;
   gap: 10px;
-
   background: var(--branding-color);
   color: white;
-
   font-family: var(--default-font-family);
   font-style: normal;
   font-weight: 500;
