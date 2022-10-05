@@ -57,16 +57,12 @@ p {
   line-height: 1.5;
 }
 .btn-branding {
-  padding: 18px 30px;
-  gap: 10px;
   background: var(--branding-color);
+  border-radius: 4px;
   color: white;
-  font-family: var(--default-font-family);
-  font-style: normal;
-  font-weight: 500;
   font-size: 18px;
   line-height: 27px;
-  border-radius: 4px;
+  padding: 15px 30px;
 }
 .btn-branding-outline {
   font-size: 18px;
@@ -78,6 +74,28 @@ p {
 }
 .project-description {
   padding: 30px 30px;
+}
+.d-inline-block {
+  position: absolute;
+  width: 150px;
+  height: 41, 82px;
+  margin-left: 165px;
+  margin-top: 40px;
+}
+.nav {
+  position: absolute;
+  width: 400px;
+  height: 24px;
+  left: 1000px;
+  top: 51px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #6c63ff;
 }
 @media (max-width: 900px) {
   h1 {
