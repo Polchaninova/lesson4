@@ -108,25 +108,12 @@ p {
   margin: 30px;
 }
 .about-section p {
-  position: absolute;
-  width: 475px;
-  height: 120px;
-  left: calc(50% - 475px / 2 - 342.5px);
-  top: 513px;
-
   font-family: var(--default-font-family);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 2;
-
   color: rgba(39, 33, 66, 0.7);
-}
-.photo_me {
-  position: absolute;
-  right: 259px;
-  top: 259px;
-  border-radius: 20px;
 }
 @media (max-width: 900px) {
   h1 {
