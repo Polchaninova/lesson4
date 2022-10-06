@@ -115,6 +115,10 @@ p {
   line-height: 2;
   color: rgba(39, 33, 66, 0.7);
 }
+.container {
+  padding-top: 259px;
+  padding: 0 auto;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
