@@ -48,31 +48,31 @@ p {
   font-size: 24px;
   line-height: 1.5;
 }
-.about-section {
+.content-container {
   padding: 160px 20px;
 }
 
-.about-section h1 {
+.content h1 {
   font-size: 64px;
   line-height: 80px;
   color: #000000;
 }
-.about-section h2 {
+.content h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
   color: #272142;
 }
-.about-section-content {
-  margin: 30px;
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: var(--default-font-family);
 }
 
-.about-section p {
-  font-family: var(--default-font-family);
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 2;
-  color: rgba(39, 33, 66, 0.7);
+.content p {
+  font-size: 14px;
+}
+.content {
+  margin: 30px;
 }
 .btn-branding {
   background: var(--branding-color);
@@ -93,19 +93,6 @@ p {
 .project-description {
   padding: 120px 60px;
 }
-.d-inline-block {
-  position: absolute;
-  width: 150px;
-  height: 41, 82px;
-  margin-left: 165px;
-  margin-top: 40px;
-}
-.container-content-work {
-  padding-top: 259px;
-  padding: 0 auto;
-  margin-left: 400px;
-  margin-right: 500px;
-}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -117,18 +104,12 @@ p {
   .hero {
     padding: 80px 20px;
   }
-  .about-section {
+  .content {
     text-align: center;
     padding: 0;
   }
   .project-description {
     padding: 0;
     text-align: center;
-  }
-  @media (min-width: 992px) {
-    .navbar-expand-lg {
-      flex-wrap: nowrap;
-      justify-content: flex-start;
-    }
   }
 }
