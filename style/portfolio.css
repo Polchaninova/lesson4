@@ -138,8 +138,8 @@ footer {
 footer .contact-box {
   background: var(--secondary-color);
   padding: 30px 120px;
-  margin-right: 350px;
-  margin-left: 350px;
+  margin-right: 50px;
+  margin-left: 50px;
   margin-top: 60px;
   border-radius: 10px;
 }
